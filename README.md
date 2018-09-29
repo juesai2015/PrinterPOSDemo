@@ -7,5 +7,11 @@
 ![image](https://github.com/juesai2015/PrinterPOSDemo/raw/master/screenshot/1538187574944.gif)
 ![image](https://github.com/juesai2015/PrinterPOSDemo/raw/master/screenshot/1538188537894.jpg)
 
+![image](https://github.com/juesai2015/PrinterPOSDemo/raw/master/screenshot/Screenshot1.png?imageMogr2/auto-orient/strip)
+![image](https://github.com/juesai2015/PrinterPOSDemo/raw/master/screenshot/Screenshot2.png?imageMogr2/auto-orient/strip)<br/>
+![image](https://github.com/juesai2015/PrinterPOSDemo/raw/master/screenshot/1538187574944.gif?imageMogr2/auto-orient/strip)
+![image](https://github.com/juesai2015/PrinterPOSDemo/raw/master/screenshot/1538188537894.jpg?imageMogr2/auto-orient/strip)
+![QQ20170926-111733-HD.gif](http://upload-images.jianshu.io/upload_images/4824158-9254964552fc358c.gif?imageMogr2/auto-orient/strip)<br/>
 
+<img src="https://github.com/juesai2015/PrinterPOSDemo/raw/master/screenshot/Screenshot1.png" width="360" height="640" alt="截图"/>
 
