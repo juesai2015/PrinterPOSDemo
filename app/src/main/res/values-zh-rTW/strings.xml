@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="title_activity_pdf_print">PdfPrintActivity</string>
+    <string name="title_activity_lable_print">LablePrintActivity</string>
+    <string name="app_name">AndroidPrintDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <!-- MainActivity -->
+    <string name="setting">設置</string>
+    <string name="lable_print">標籤打印</string>
+    <string name="text_print">文本打印</string>
+    <string name="pdf_print">PDF打印</string>
+    <string name="picture_print">圖片打印</string>
+    <string name="barcode_print">條碼打印</string>
+    <string name="about_us">關於我們</string>
+    <!-- LablePrintActivity -->
+    <string name="lable_of_library_58mm">圖書館標籤58mm</string>
+    <string name="lable_of_physical_distribution_100mm">物流標籤100mm</string>
+    <string name="lable_of_anneng_physical_distribution_80mm">物流標籤80mm</string>
+    <string name="lable_of_material_transport_80mm">材料運單80mm標籤</string>
+    <string name="lable_of_fruit">蔬菜水果標籤</string>
+    <string name="lable_of_milky_tea">奶茶店標籤</string>
+    <string name="lable_of_material_transport_80mm2">材料運單80mm標籤</string>
+    <string name="lable_of_tracking_number">快遞單號標籤</string>
+    <string name="lable_of_storage">倉儲行業標籤</string>
+    <!-- SettingActivity -->
+    <string-array name="interface_type">
+        <item>Bluetooth</item>
+        <item>USB</item>
+        <item>Wifi</item>
+        <item>Serial port</item>
+    </string-array>
+    <string-array name="tear_data">
+        <item>撕紙</item>
+        <item>剝紙</item>
+        <item>関</item>
+    </string-array>
+    <string-array name="cash_data">
+        <item>禁止開錢箱</item>
+        <item>打開前開錢箱</item>
+        <item>打開後開錢箱</item>
+    </string-array>
+    <string-array name="beep_data">
+        <item>禁止蜂鳴器 </item>
+        <item>打印前蜂鳴器響</item>
+        <item>打印後蜂鳴器響</item>
+    </string-array>
+    <string-array name="printertype">
+        <item>L31</item>
+        <item>L51</item>
+        <item>T10</item>
+        <item>T9</item>
+        <item>T7</item>
+        <item>POS58</item>
+        <item>POS885</item>
+        <item>EU80 series</item>
+    </string-array>
+    <string name="settingactivity_orderset">指令集</string>
+    <string name="settingactivity_cpcl_orderset">CPCL指令</string>
+    <string name="settingactivity_tspl_orderset">TSPL指令</string>
+    <string name="settingactivity_gap">間隙寬度（毫米）:</string>
+    <string name="settingactivity_gap_offset">間隙偏移（毫米）:</string>
+    <string name="settingactivity_speed">打印速度（英寸/秒）:</string>
+    <string name="settingactivity_concentration">打印濃度:</string>
+    <string name="settingactivity_label_offset">標籤偏移量（毫米）:</string>
+    <string name="settingactivity_print_numbers">打印份數（1~500）:</string>
+    <string name="settingactivity_not_print_area">非打印區域</string>
+    <string name="settingactivity_margin_left">左邊距離（毫米）:</string>
+    <string name="settingactivity_margin_top">頂邊距離（毫米）:</string>
+    <string name="settingactivity_other_settings">其他設置</string>
+    <string name="settingactivity_tear_setting">撕紙設置:</string>
+    <string name="settingactivity_cash_box_setting">錢箱設置:</string>
+    <string name="settingactivity_buzzer_setting">蜂鳴设置:</string>
+    <string name="settingactivity_print_test">打印測試</string>
+    <string name="Settingactivity_status_test">查詢打印機狀態</string>
+    <string name="settingactivitty_toast_bluetooth_set_tspl_successful">藍牙方式TSPL指令設置成功</string>
+    <string name="settingactivity_toast_usb_set_tspl_succefful">USB方式TSPL指令設置成功</string>
+    <string name="String_judge1">禁止開錢箱</string>
+    <string name="String_judge2">打開前開錢箱</string>
+    <string name="String_judge3">打開後開錢箱</string>
+    <string name="String_judge4">禁止蜂鳴器 </string>
+    <string name="String_judge5">打印前蜂鳴器響</string>
+    <string name="String_judge6">打印後蜂鳴器響</string>
+    <string name="bt_not_enabled">藍牙設備沒有啟動</string>
+    <string name="no_connected">打印機未連接!</string>
+    <string name="printerName">設備名:未連接</string>
+    <string name="printerAddress">設備地址:未連接</string>
+    <string name="printerType">打印機型號</string>
+    <string name="interface_type">打印機接口類型</string>
+    <string name="openConnection">打開鏈接</string>
+    <string name="scan_connect">掃一掃連接</string>
+    <string name="check_status">狀態監測</string>
+    <string name="paper_width">紙張寬度</string>
+    <string name="cut_test">切刀測試</string>
+    <string name="half_cut">半切</string>
+    <string name="all_cut">全切</string>
+    <string name="copies_number">打印份數</string>
+    <string name="print_test">打印測試頁</string>
+    <string name="button_scan">掃描新設備</string>
+    <string name="back">返回</string>
+    <string name="str_message">提示：</string>
+    <string name="str_connlast">是否鏈接到上次設備？</string>
+    <string name="yesconn">確認連接</string>
+    <string name="codepageTest">代碼頁：</string>
+    <string name="str_resel">重新搜索</string>
+    <string name="disconnect">斷開連接</string>
+    <string name="connect">連接</string>
+    <string name="switch_wifi">選擇WiFi</string>
+    <string name="str_text">打印文本效果展示：</string>
+    <string name="str_text_left">文字居左效果演示abc123：</string>
+    <string name="str_text_right">文字居右效果演示abc123：</string>
+    <string name="str_text_center">文字居中效果演示abc123：</string>
+    <string name="str_text_strong">文字加粗效果演示abc123：</string>
+    <string name="str_text_underline">文字下劃線abc123：</string>
+    <string name="str_text_height">同行不同高演示效果：</string>
+    <string name="times">倍</string>
+    <string name="bigger">放大</string>
+    <string name="bigger1">倍數演示效果abc123</string>
+    <string name="connecting">連接中...</string>
+    <string name="please_wait">請等待...</string>
+    <!-- DeviceListActivity -->
+    <string name="scanning">掃描設備中...</string>
+    <string name="select_device">請選擇要連接的設備</string>
+    <string name="none_paired">沒有匹配的設備</string>
+    <string name="has_paired">已配對</string>
+    <string name="not_paired">未配對</string>
+    <string name="none_found">沒有找到設備</string>
+    <string name="scan_text">將二維碼放入框內，即可自動掃描</string>
+    <string name="conn_failed">連接失敗</string>
+    <string name="conn_closed">連接關閉</string>
+    <string name="conn_no">沒有可連接的設備</string>
+    <!-- TextPrintActivity -->
+    <string name="text_input">請輸入文字:</string>
+    <string name="hex_close">十六進制關</string>
+    <string name="hex_open">十六進制開</string>
+    <string name="content_to_print">請輸入要打印的文字。。。</string>
+    <string name="example_for_codepage_print">代碼頁打印示例</string>
+    <string name="print_note">小票打印示例</string>
+    <string name="company_name">打印機公司</string>
+    <string name="shop_company_title">寧波月湖店</string>
+    <string name="shop_num">門店號：</string>
+    <string name="shop_note_num">單據號：</string>
+    <string name="shop_cashier_num">收銀員：</string>
+    <string name="shop_receipt_date">單據日期：</string>
+    <string name="shop_print_time">打印時間：</string>
+    <string name="shop_goods_number">數量：</string>
+    <string name="shop_goods_total_price">總計：</string>
+    <string name="shop_payment">付款：</string>
+    <string name="shop_change">找零：</string>
+    <string name="shop_company_name">公司名稱：江蘇某某家居用品有限公司</string>
+    <string name="shop_company_site">公司網址：</string>
+    <string name="shop_company_address">地址：江蘇省寧波市某某路某某號</string>
+    <string name="shop_company_tel">電話：</string>
+    <string name="shop_Service_Line">服務專線：</string>
+    <string name="shop_thanks">謝謝惠顧，歡迎再次光臨！</string>
+    <string name="shop_demo">Demo 版本！</string>
+    <string name="note_title">品名;數量;單價;金額</string>
+    <string name="coffee">咖啡</string>
+    <string name="tableware">消毒餐具</string>
+    <string name="peanuts">油炸花生米</string>
+    <string name="cucumber">蒜泥黃瓜</string>
+    <string name="frog">幹鍋田雞</string>
+    <string name="rice">米飯</string>
+    <string name="str_note">打印小票效果演示：</string>
+    <string name="str_show">演示：</string>
+    <string name="shop_receipt_num">單據</string>
+    <string name="bags">保鮮袋</string>
+    <string name="umbrella">雨傘</string>
+    <string name="hook">鐵絲掛鉤</string>
+    <string name="textprintactivty_input_content">This is just a test!</string>
+    <!-- PdfPrintActivity -->
+    <string name="choose_pdf_file">選擇pdf文件</string>
+    <string name="previous_page">上一頁</string>
+    <string name="next_page">下一頁</string>
+    <string name="print_this_page">打印當前頁</string>
+    <string name="print_all_pdf_document">打印整個pdf文件</string>
+    <!-- BarcoePrintActivity -->
+    <string-array name="barNoteArray">
+        <item>不打印</item>
+        <item>上方</item>
+        <item>下方</item>
+        <item>上下方均有</item>
+    </string-array>
+    <string-array name="barEnlargeArray">
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="barcode2">
+        <item>QRCODE</item>
+        <item>PDF417</item>
+        <item>DATAMATRIX</item>
+    </string-array>
+    <string-array name="barcode1">
+        <item>CODE128</item>
+        <item>CODE39</item>
+        <item>CODEBAR</item>
+        <item>ITF</item>
+        <item>CODE93</item>
+        <item>UPC-A</item>
+        <item>UPC-E</item>
+        <item>EAN13</item>
+        <item>EAN8</item>
+        <item>全选</item>
+    </string-array>
+    <string name="barcode">一維碼</string>
+    <string name="qrcode">二維碼</string>
+    <string name="tv_barcode_width">條碼寬度：</string>
+    <string name="tv_barcode_height">條碼高度:</string>
+    <string name="barcode_content">請輸入條碼內容</string>
+    <string name="barcode_data_send">發送打印</string>
+    <string name="barcode_data_defalut">恢復默認</string>
+    <string name="tv_barcode_setting">選擇設置</string>
+    <string name="tv_barcode_type">條碼類型:</string>
+    <string name="chose_barcode_type">請選擇條碼類型</string>
+    <string name="data_range">取值範圍</string>
+    <string name="barcode_print_show">條碼打印示例</string>
+    <string name="barcode_example">一維碼打印示例</string>
+    <string name="qrcode_example">二維碼打印示例</string>
+    <string name="scan_and_print">掃一掃打印</string>
+    <string name="send_data">發送打印</string>
+    <string name="barcode_width">條碼寬度：</string>
+    <string name="width_data_range">範圍（2~6）</string>
+    <string name="barcode_height">條碼寬度:</string>
+    <string name="height_data_range">範圍（0~255）</string>
+    <string name="content_position">內容顯示:</string>
+    <string name="barcode_width_default_value">2</string>
+    <string name="barcode_height_default_value">162</string>
+    <string name="version">圖形版本號:</string>
+    <string name="verion_range">範圍（0~40）</string>
+    <string name="level">糾錯等級:</string>
+    <string name="level_range">範圍（72,76,77,81）</string>
+    <string name="version_default_value">1</string>
+    <string name="level_default_value">76</string>
+    <string name="multiple">放大倍數:</string>
+    <string name="upc_e_default_value">000000000000</string>
+    <string name="ean_13_default_value">1234567891234</string>
+    <string name="ean_8_default_value">12345678</string>
+    <string name="characters_in_line">每行字符數:</string>
+    <string name="characters_range">範圍（1~30）</string>
+    <string name="characters_default_value">0</string>
+    <string name="level_range_qrcode">範圍（0~8）</string>
+    <string name="barcode_width_data_range_datamatrix">範圍（8~144）</string>
+    <string name="barcode_height_data_range_datamatrix">範圍（0~144）</string>
+    <string name="level_range_default_value_qrcode">8</string>
+    <string name="barcode_height_default_value_datamatrix">0</string>
+    <string name="tips_for_not_connect">對不起，你還沒有連接打印機！</string>
+    <string name="default_code_content">01051661178</string>
+    <string name="default_content_position">不打印</string>
+    <string name="default_barcode_type">CODE128</string>
+    <string name="default_qrcode_type">QRCODE</string>
+    <string-array name="codepages">
+        <item>CP437 [U.S.A., Standard Europe]</item>
+        <item>Katakana</item>
+        <item>CP850 [Multilingual]</item>
+        <item>CP860 [Portuguese]</item>
+        <item>CP863 [Canadian-French]</item>
+        <item>CP865 [Nordic]</item>
+        <item>WCP1251 [Cyrillic]</item>
+        <item>CP866 Cyrilliec #2</item>
+        <item>MIK[Cyrillic /Bulgarian]</item>
+        <item>CP755 [East Europe，Latvian 2]</item>
+        <item>Iran</item>
+        <item>reserve</item>
+        <item>reserve</item>
+        <item>reserve</item>
+        <item>reserve</item>
+        <item>CP862 [Hebrew]</item>
+        <item>WCP1252 Latin I</item>
+        <item>WCP1253 [Greek]</item>
+        <item>CP852 [Latina 2]</item>
+        <item>CP858 Multilingual Latin Ⅰ+Euro)</item>
+        <item>Iran II</item>
+        <item>Latvian</item>
+        <item>CP864 [Arabic]</item>
+        <item>ISO-8859-1 [West Europe]</item>
+        <item>CP737 [Greek]</item>
+        <item>WCP1257 [Baltic]</item>
+        <item>Thai</item>
+        <item>CP720[Arabic]</item>
+        <item>CP855</item>
+        <item>CP857[Turkish]</item>
+        <item>WCP1250[Central Eurpoe]</item>
+        <item>CP775</item>
+        <item>WCP1254[Turkish]</item>
+        <item>WCP1255[Hebrew]</item>
+        <item>WCP1256[Arabic]</item>
+        <item>WCP1258[Vietnam]</item>
+        <item>ISO-8859-2[Latin 2]</item>
+        <item>ISO-8859-3[Latin 3]</item>
+        <item>ISO-8859-4[Baltic]</item>
+        <item>ISO-8859-5[Cyrillic]</item>
+        <item>ISO-8859-6[Arabic]</item>
+        <item>ISO-8859-7[Greek]</item>
+        <item>ISO-8859-8[Hebrew]</item>
+        <item>ISO-8859-9[Turkish]</item>
+        <item>ISO-8859-15 [Latin 3]</item>
+        <item>Thai2</item>
+        <item>CP856</item>
+        <item>全選</item>
+    </string-array>
+    <!-- PriturePrintActivity -->
+    <string name="monochrome_print">打印預置二位圖</string>
+    <string name="take_phtoto_print">即拍即打</string>
+    <string name="select_photos">選擇相冊</string>
+    <string name="canvas_print">畫布方式</string>
+    <string name="str_canvas">打印畫布效果展示：</string>
+    <string name="print_codepage">打印代碼頁</string>
+    <string name="print">打印</string>
+    <string name="not_support">此手機暫不支持此功能</string>
+    <string name="cancel">取消</string>
+    <string name="tv_example">打印示例展示</string>
+    <string name="print_table">表格打印示例</string>
+    <string name="qrcode_scann">二維碼掃描</string>
+    <string name="scann_new_devices">掃描新設備</string>
+    <string name="tv_current_wifi">當前連接到wifi:</string>
+    <string name="test">測試</string>
+    <string name="content_after_scann">以上是掃描到的內容</string>
+    <string name="unknown_device">未知設備</string>
+    <!-- BaseActivity -->
+    <string name="headview_setting">設置</string>
+    <string name="headview_LablePrint">標籤</string>
+    <string name="headview_TextPrint">文本</string>
+    <string name="headview_PdfPrint">PDF</string>
+    <string name="headview_BarcodePrint">條碼</string>
+    <string name="headview_PicturePrint">圖片</string>
+    <!-- headView -->
+    <string name="on_line">已連接</string>
+    <string name="off_line">未連接</string>
+    <!-- AboutUsActivity -->
+    <string name="version_update">版本檢測</string>
+    <string name="user_guide">用戶指南</string>
+    <string name="website">公司網站</string>
+    <string name="call_us">聯繫我們</string>
+    <string name="about">關於</string>
+    <string name="notroot">該設備很可能沒有root權限，操作串口需要root權限</string>
+</resources>

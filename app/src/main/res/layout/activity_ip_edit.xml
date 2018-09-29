@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exit_layout"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/confirm_dialog_bg2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_wifi_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="5dp"
+        android:text="@string/tv_current_wifi"
+        android:textColor="#333"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal" >
+
+        <EditText
+            android:id="@+id/ip_edit_1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_editbox"
+            android:gravity="bottom"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="3"
+            android:singleLine="true"
+            android:text="192"
+            android:textColor="#000"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/dot_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/ip_edit_1"
+            android:layout_toRightOf="@id/ip_edit_1"
+            android:singleLine="true"
+            android:text="."
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ip_edit_2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dot_1"
+            android:background="@drawable/my_editbox"
+            android:gravity="bottom"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="3"
+            android:singleLine="true"
+            android:text="168"
+            android:textColor="#000"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/dot_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/ip_edit_1"
+            android:layout_toRightOf="@id/ip_edit_2"
+            android:singleLine="true"
+            android:text="."
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ip_edit_3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dot_2"
+            android:background="@drawable/my_editbox"
+            android:gravity="bottom"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="3"
+            android:singleLine="true"
+            android:text="1"
+            android:textColor="#000"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/dot_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/ip_edit_1"
+            android:layout_toRightOf="@id/ip_edit_3"
+            android:singleLine="true"
+            android:text="."
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ip_edit_4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dot_3"
+            android:background="@drawable/my_editbox"
+            android:gravity="bottom"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="3"
+            android:singleLine="true"
+            android:text="118"
+            android:textColor="#000"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/btn_style_green"
+            android:gravity="center"
+            android:onClick="connect"
+            android:text="@string/connect"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/switchWifi"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/btn_style_green"
+            android:gravity="center"
+            android:onClick="switchWiFi"
+            android:text="@string/switch_wifi"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

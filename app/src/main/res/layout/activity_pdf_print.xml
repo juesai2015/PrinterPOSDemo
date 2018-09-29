@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PdfPrintActivity" >
+
+    <include
+        android:id="@+id/ll_headerview_Pdf_Printactivity"
+        layout="@layout/heardview_layout" />
+
+    <LinearLayout
+        android:id="@+id/ll_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_choose_pdf_file"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_pre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/previous_page" />
+
+        <TextView
+            android:id="@+id/tv_showpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="0/0" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/next_page" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_choose_pdf_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_printthis"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/choose_pdf_file" />
+
+    <Button
+        android:id="@+id/btn_printthis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_printpdf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/print_this_page" />
+
+    <Button
+        android:id="@+id/btn_printpdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/print_all_pdf_document" />
+
+    <ImageView
+        android:id="@+id/iv_showpdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_control"
+        android:layout_below="@+id/ll_headerview_Pdf_Printactivity"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

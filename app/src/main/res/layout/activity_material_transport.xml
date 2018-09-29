@@ -1,0 +1,530 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MaterialTransportActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/snow" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@color/snow"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="#000000" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@color/snow"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/tv_center_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="120dp"
+                                android:text="ZAX"
+                                android:textColor="#000000"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/tv_title_right_top"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="7dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="中安信科技有限公司"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_title_right_bottom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="7dp"
+                                    android:text="Zhong An Xin Technology Co.Lsg"
+                                    android:textColor="#000000"
+                                    android:textSize="8sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginRight="4dp"
+                            android:background="#000000"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginTop="1dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="90dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="1dp"
+                                    android:background="@color/snow"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="bottom|center_horizontal"
+                                        android:text="规格:"
+                                        android:textColor="#000000" />
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="top|center_horizontal"
+                                        android:text="TYPE:"
+                                        android:textColor="#000000" />
+                                </LinearLayout>
+
+                                <EditText
+                                    android:id="@+id/et_type"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@color/snow"
+                                    android:ems="10"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:text="T700XX"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="90dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="1dp"
+                                    android:background="@color/snow"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="bottom|center_horizontal"
+                                        android:text="型号:"
+                                        android:textColor="#000000" />
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="top|center_horizontal"
+                                        android:text="FILAMENTS:"
+                                        android:textColor="#000000" />
+                                </LinearLayout>
+
+                                <EditText
+                                    android:id="@+id/et_filaments"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@color/snow"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:text="12K——XXX"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="90dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="1dp"
+                                    android:background="@color/snow"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="bottom|center_horizontal"
+                                        android:text="批次:"
+                                        android:textColor="#000000" />
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="top|center_horizontal"
+                                        android:text="LOT NO."
+                                        android:textColor="#000000" />
+                                </LinearLayout>
+
+                                <EditText
+                                    android:id="@+id/et_lot_no"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@color/snow"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:text="XXXXXXXXX"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="90dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="1dp"
+                                    android:background="@color/snow"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="bottom|center_horizontal"
+                                        android:text="序列号:"
+                                        android:textColor="#000000" />
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="top|center_horizontal"
+                                        android:text="CASE NO."
+                                        android:textColor="#000000" />
+                                </LinearLayout>
+
+                                <EditText
+                                    android:id="@+id/et_case_no"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@color/snow"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:text="XXXXXXXXX"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="90dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="1dp"
+                                    android:background="@color/snow"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="bottom|center_horizontal"
+                                        android:text="时间:"
+                                        android:textColor="#000000" />
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="top|center_horizontal"
+                                        android:text="DATE:"
+                                        android:textColor="#000000" />
+                                </LinearLayout>
+
+                                <EditText
+                                    android:id="@+id/et_date"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@color/snow"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:text="8/11/2015 10:50 AM"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="90dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="1dp"
+                                    android:background="@color/snow"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="bottom|center_horizontal"
+                                        android:text="重量:"
+                                        android:textColor="#000000" />
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="top|center_horizontal"
+                                        android:text="NET wt:"
+                                        android:textColor="#000000" />
+                                </LinearLayout>
+
+                                <EditText
+                                    android:id="@+id/et_wt"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@color/snow"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:text="4.00 kg"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="90dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="1dp"
+                                    android:background="@color/snow"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="bottom|center_horizontal"
+                                        android:text="长度:"
+                                        android:textColor="#000000" />
+
+                                    <TextView
+                                        android:layout_width="90dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/snow"
+                                        android:gravity="top|center_horizontal"
+                                        android:text="LENGTH:"
+                                        android:textColor="#000000" />
+                                </LinearLayout>
+
+                                <EditText
+                                    android:id="@+id/et_length"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@color/snow"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:text="5000m"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <EditText
+                                android:id="@+id/et_barcode"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@color/snow"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:hint="请输入条形码数据"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/snow"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:background="#000000"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:background="@color/snow"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/btn_print"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="打印"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+                        <Button
+                            android:id="@+id/btn_save_data"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:text="保存"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn_print"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:text="国家图书馆标签50mm"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn_print"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:text="安能物流标签80mm"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn_print"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:text="物流标签80mm"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

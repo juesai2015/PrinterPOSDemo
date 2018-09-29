@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="title_activity_pdf_print">PdfPrintActivity</string>
+    <string name="title_activity_lable_print">LablePrintActivity</string>
+    <string name="app_name">AndroidPrintDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <!-- MainActivity -->
+    <string name="setting">Setting</string>
+    <string name="lable_print">Print Lable</string>
+    <string name="text_print">print Text</string>
+    <string name="pdf_print">Print PDF</string>
+    <string name="picture_print">Print Picture</string>
+    <string name="barcode_print">Print BarCode</string>
+    <string name="no_connected">Printer Not Connected</string>
+    <string name="about_us">About Us</string>
+    <!-- LablePrintActivity -->
+    <string name="lable_of_library_58mm">Library Lable 58mm</string>
+    <string name="lable_of_physical_distribution_100mm">Physical Distribution 100mm</string>
+    <string name="lable_of_anneng_physical_distribution_80mm">Physical Distribution 80mm</string>
+    <string name="lable_of_material_transport_80mm">Material Transport 80mm</string>
+    <string name="lable_of_fruit">Label Of Fruit And Vegetables</string>
+    <string name="lable_of_milky_tea">Label Of Milky Tea Room</string>
+    <string name="lable_of_material_transport_80mm2">Material Transport 80mm</string>
+    <string name="lable_of_tracking_number">Label Of Tracking Number</string>
+    <string name="lable_of_storage">Label Of Storage Sector</string>
+    <!-- SettingActivity -->
+    <string-array name="interface_type">
+        <item>Bluetooth</item>
+        <item>USB</item>
+        <item>Wifi</item>
+        <item>Serial port</item>
+    </string-array>
+    <string-array name="tear_data">
+        <item>tear</item>
+        <item>strip</item>
+        <item>close</item>
+    </string-array>
+    <string-array name="cash_data">
+        <item>prohibit open the box</item>
+        <item>open the box before print</item>
+        <item>open the box after print</item>
+    </string-array>
+    <string-array name="beep_data">
+        <item>ban buzzer</item>
+        <item>buzzer rang before print</item>
+        <item>buzzer rang after print</item>
+    </string-array>
+    <string-array name="printertype">
+        <item>L31</item>
+        <item>L51</item>
+        <item>T10</item>
+        <item>T9</item>
+        <item>T7</item>
+        <item>POS58</item>
+        <item>POS885</item>
+        <item>EU80 series</item>
+    </string-array>
+    <string-array name="spingarr">
+        <item>115200</item>
+        <item>9600</item>
+        <item>230400</item>
+    </string-array>
+    <string name="settingactivity_orderset">orderset</string>
+    <string name="settingactivity_cpcl_orderset">CPCL</string>
+    <string name="settingactivity_tspl_orderset">TSPL</string>
+    <string name="settingactivity_gap">gap(mm):</string>
+    <string name="settingactivity_gap_offset">gap offset(mm):</string>
+    <string name="settingactivity_speed">speed(inch/seconds):</string>
+    <string name="settingactivity_concentration">concentration:</string>
+    <string name="settingactivity_label_offset">label offset(mm):</string>
+    <string name="settingactivity_print_numbers">print numbers:</string>
+    <string name="settingactivity_not_print_area">no print area</string>
+    <string name="settingactivity_margin_left">margin left(mm):</string>
+    <string name="settingactivity_margin_top">margin top(mm):</string>
+    <string name="settingactivity_other_settings">other settings</string>
+    <string name="settingactivity_tear_setting">tear setting:</string>
+    <string name="settingactivity_cash_box_setting">cash box setting:</string>
+    <string name="settingactivity_buzzer_setting">buzzer setting:</string>
+    <string name="settingactivity_print_test">print test</string>
+    <string name="Settingactivity_status_test">status test</string>
+    <string name="settingactivitty_toast_bluetooth_set_tspl_successful">TSPL set successful with BT</string>
+    <string name="settingactivity_toast_usb_set_tspl_succefful">TSPL set successful with USB</string>
+    <string name="String_judge1">prohibit open the box</string>
+    <string name="String_judge2">open the box before print</string>
+    <string name="String_judge3">open the box after print</string>
+    <string name="String_judge4">ban buzzer</string>
+    <string name="String_judge5">buzzer rang before print</string>
+    <string name="String_judge6">buzzer rang after print</string>
+    <string name="bt_not_enabled">Bluetooth is not enabled</string>
+    <string name="printerName">device name:no connection</string>
+    <string name="printerAddress">deivice address:no connection</string>
+    <string name="printerType">Printer Model</string>
+    <string name="interface_type">Printer Interface Type</string>
+    <string name="openConnection">OPEN CONNECTION</string>
+    <string name="scan_connect">Scan And Connection</string>
+    <string name="paper_width">Paper Width</string>
+    <string name="cut_test">CutPaperTest</string>
+    <string name="half_cut">HalfCut</string>
+    <string name="all_cut">AllCut</string>
+    <string name="copies_number">Number of Copies</string>
+    <string name="check_status">Check Status</string>
+    <string name="print_test">Print TestPage</string>
+    <string name="button_scan">Scan New Devices</string>
+    <string name="back">Back</string>
+    <string name="str_message">Tips：</string>
+    <string name="str_connlast">connected to the last device?</string>
+    <string name="yesconn">Connect to Last Time</string>
+    <string name="str_resel">New Search</string>
+    <string name="disconnect">Close Connection</string>
+    <string name="connect">Connect</string>
+    <string name="switch_wifi">Switch WiFi</string>
+    <string name="str_text">打印文本效果展示：</string>
+    <string name="str_text_left">文字居左效果演示abc123：</string>
+    <string name="str_text_right">文字居右效果演示abc123：</string>
+    <string name="str_text_center">文字居中效果演示abc123：</string>
+    <string name="str_text_strong">文字加粗效果演示abc123：</string>
+    <string name="str_text_underline">文字下划线效果演示abc123：</string>
+    <string name="str_text_height">同行不同高效果演示：：</string>
+    <string name="times">倍</string>
+    <string name="bigger">放大</string>
+    <string name="bigger1">倍效果演示abc123</string>
+    <string name="connecting">Connecting...</string>
+    <string name="please_wait">Please Wait...</string>
+    <!-- DeviceListActivity -->
+    <string name="scanning">Scanning...</string>
+    <string name="select_device">Pleaase select the device to connect</string>
+    <string name="none_paired">No Paired Device</string>
+    <string name="has_paired">Already Paired</string>
+    <string name="not_paired">Have not Paired</string>
+    <string name="none_found">No found</string>
+    <string name="scan_text">Put the qr code in the box and scan automatically</string>
+    <string name="conn_failed">Connect Failed</string>
+    <string name="conn_closed">Connect Closed</string>
+    <string name="conn_no">No devices can connect</string>
+    <!-- TextPrintActivity -->
+    <string name="text_input">Please input content:</string>
+    <string name="hex_close">Hex_Close</string>
+    <string name="hex_open">Hex_Open</string>
+    <string name="content_to_print">Please input the text need to print...</string>
+    <string name="print_note">Show Example of Receipt</string>
+    <string name="example_for_codepage_print">Show CodePage</string>
+    <string name="company_name">打印机公司</string>
+    <string name="shop_company_title">杭州xxx超市</string>
+    <string name="shop_num">门店号：</string>
+    <string name="shop_note_num">单据号：</string>
+    <string name="shop_cashier_num">收银员：</string>
+    <string name="shop_receipt_date">单据日期：</string>
+    <string name="shop_print_time">打印时间：</string>
+    <string name="shop_goods_number">数量：</string>
+    <string name="shop_goods_total_price">总计：</string>
+    <string name="shop_payment">付款：</string>
+    <string name="shop_change">找零：</string>
+    <string name="shop_company_name">公司名称：杭州某某家居超市</string>
+    <string name="shop_company_site">公司网址：</string>
+    <string name="shop_company_address">地址：杭州市某某路某某号</string>
+    <string name="shop_company_tel">电话：</string>
+    <string name="shop_Service_Line">服务专线：</string>
+    <string name="shop_thanks">谢谢惠顾,欢迎再次光临！</string>
+    <string name="shop_demo">Demo 版本！</string>
+    <string name="note_title">品名;数量;单价;金额</string>
+    <string name="coffee">咖啡</string>
+    <string name="tableware">消毒餐具</string>
+    <string name="peanuts">油炸花生米</string>
+    <string name="cucumber">蒜泥黄瓜</string>
+    <string name="frog">干锅田鸡</string>
+    <string name="rice">米饭</string>
+    <string name="str_note">打印小票效果演示：</string>
+    <string name="str_show">演示：</string>
+    <string name="shop_receipt_num">单据</string>
+    <string name="bags">保鲜袋</string>
+    <string name="umbrella">雨伞</string>
+    <string name="hook">铁丝挂钩</string>
+    <string name="textprintactivty_input_content">This is just a test!</string>
+    <!-- PdfPrintActivity -->
+    <string name="choose_pdf_file">choose pdf file</string>
+    <string name="previous_page">Previous Page</string>
+    <string name="next_page">Next Pag</string>
+    <string name="print_this_page">Present Page Print</string>
+    <string name="print_all_pdf_document">PDF Print</string>
+    <!-- BarcoePrintActivity -->
+    <string-array name="barNoteArray">
+        <item>Default</item>
+        <item>Above</item>
+        <item>Below</item>
+        <item>Both</item>
+    </string-array>
+    <string-array name="barEnlargeArray">
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="barcode2">
+        <item>QRCODE</item>
+        <item>PDF417</item>
+        <item>DATAMATRIX</item>
+    </string-array>
+    <string-array name="barcode1">
+        <item>CODE128</item>
+        <item>CODE39</item>
+        <item>CODEBAR</item>
+        <item>ITF</item>
+        <item>CODE93</item>
+        <item>UPC-A</item>
+        <item>UPC-E</item>
+        <item>EAN13</item>
+        <item>EAN8</item>
+        <item>All Types</item>
+    </string-array>
+    <string name="barcode">Barcode</string>
+    <string name="qrcode"> QR Code</string>
+    <string name="tv_barcode_width">Width Of Code:</string>
+    <string name="tv_barcode_height">height Of Code:</string>
+    <string name="barcode_content">Content of code</string>
+    <string name="barcode_data_send">Send Data And Print</string>
+    <string name="barcode_data_defalut">Default</string>
+    <string name="tv_barcode_setting">Setting</string>
+    <string name="tv_barcode_type">Code Type</string>
+    <string name="send_data">Send Data To Print</string>
+    <string name="chose_barcode_type">Please choose the type of barcode</string>
+    <string name="data_range">Data Range</string>
+    <string name="barcode_print_show">Show Example</string>
+    <string name="barcode_example">Show Barcode</string>
+    <string name="qrcode_example">Show QrBarcode</string>
+    <string name="scan_and_print">Scan And Print</string>
+    <string name="barcode_width">Width:</string>
+    <string name="width_data_range"> Range（2~6）</string>
+    <string name="barcode_height">Height:</string>
+    <string name="height_data_range"> Rrange（0~255）</string>
+    <string name="content_position">Position:</string>
+    <string name="barcode_width_default_value">2</string>
+    <string name="barcode_height_default_value">162</string>
+    <string name="version">Version:</string>
+    <string name="verion_range">Range（0~40）</string>
+    <string name="level">level:</string>
+    <string name="level_range"> Range（72,76,77,81）</string>
+    <string name="version_default_value">1</string>
+    <string name="level_default_value">76</string>
+    <string name="multiple">Multiple:</string>
+    <string name="upc_e_default_value">000000000000</string>
+    <string name="ean_13_default_value">1234567891234</string>
+    <string name="ean_8_default_value">12345678</string>
+    <string name="characters_in_line">Char/line:</string>
+    <string name="characters_range"> Range（1~30）</string>
+    <string name="characters_default_value">0</string>
+    <string name="level_range_qrcode"> Range（0~8）</string>
+    <string name="barcode_width_data_range_datamatrix"> Range（8~144）</string>
+    <string name="barcode_height_data_range_datamatrix"> Range（0~144）</string>
+    <string name="level_range_default_value_qrcode">8</string>
+    <string name="barcode_height_default_value_datamatrix">0</string>
+    <string name="tips_for_not_connect">Sorry,there is no connected Printer！</string>
+    <string name="default_code_content">01051661178</string>
+    <string name="default_content_position">Default</string>
+    <string name="default_barcode_type">CODE128</string>
+    <string name="default_qrcode_type">QRCODE</string>
+    <string-array name="codepages">
+        <item>Katakana</item>
+    </string-array>
+    <!-- PriturePrintActivity -->
+    <string name="monochrome_print">Print Monochrome</string>
+    <string name="take_phtoto_print">Take Pictures And Print</string>
+    <string name="select_photos">Gallery</string>
+    <string name="canvas_print">Canvas</string>
+    <string name="str_canvas">Show Canvas：</string>
+    <string name="print_codepage">Print CodePage</string>
+    <string name="print">Print</string>
+    <string name="not_support">This phone does not support this feature</string>
+    <string name="cancel">Cancel</string>
+    <string name="codepageTest">Select CodePage Models:</string>
+    <string name="tv_example">Show Example</string>
+    <string name="print_table">Show Example of Table</string>
+    <string name="qrcode_scann">Scan QrCode</string>
+    <string name="scann_new_devices">Scan for New Devices</string>
+    <string name="tv_current_wifi">Present Wifi:</string>
+    <string name="test">Test</string>
+    <string name="content_after_scann">Content after scanning</string>
+    <string name="unknown_device">unknown device</string>
+    <!-- BaseActivity -->
+    <string name="headview_setting">Setting</string>
+    <string name="headview_LablePrint">Lable</string>
+    <string name="headview_TextPrint">Text</string>
+    <string name="headview_PdfPrint">PDF</string>
+    <string name="headview_BarcodePrint">Barcode</string>
+    <string name="headview_PicturePrint">Picture</string>
+    <!-- headView -->
+    <string name="on_line">device online</string>
+    <string name="off_line">device offline</string>
+    <!-- AboutUsActivity -->
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="version_update">Version Update</string>
+    <string name="user_guide">User Guide</string>
+    <string name="website">Website</string>
+    <string name="call_us">Call Us</string>
+    <string name="about">About</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_material_transport">MaterialTransportActivity</string>
+    <string name="title_activity_test_tcp">TestTCP</string>
+    <string name="title_activity_main_activitya">MainActivitya</string>
+    <string name="notroot">The device is likely to have no root privileges, and the serial port requires root privileges</string>
+    <string name="choosePDFFile">choose the PDF file</string>
+</resources>

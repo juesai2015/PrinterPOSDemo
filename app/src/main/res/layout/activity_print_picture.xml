@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/ll_header_picture"
+        layout="@layout/heardview_layout" />
+
+    <LinearLayout
+        android:id="@+id/ll_show_picture"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+                android:layout_marginTop="80dp"
+        	android:layout_marginBottom="60dp"
+        android:layout_below="@id/ll_header_picture"
+        android:orientation="horizontal"
+        >
+
+<!--     <ImageView
+        android:id="@+id/iv_Original_picture"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:src="@drawable/original" -->
+
+     <ImageView
+        android:id="@+id/iv_monochrome_picture"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:src="@drawable/my_monochrome_image"/> -->
+    </LinearLayout>
+
+      <Button
+        android:id="@+id/btn_monochrome_print"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ll_show_picture"
+        android:layout_marginTop="20dp"
+        android:text="@string/monochrome_print"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btn_photo_print"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/btn_monochrome_print"
+        android:layout_marginTop="20dp"
+        android:text="@string/take_phtoto_print"
+        android:textSize="16sp" />
+     <Button
+        android:id="@+id/btn_select_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/btn_photo_print"
+        android:layout_marginTop="20dp"
+        android:text="@string/select_photos"
+        android:textSize="16sp" />
+
+     <Button
+        android:id="@+id/btn_canvas_print"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/btn_select_photo"
+        android:layout_marginTop="20dp"
+        android:text="@string/canvas_print"
+        android:textSize="16sp" />
+</RelativeLayout>
